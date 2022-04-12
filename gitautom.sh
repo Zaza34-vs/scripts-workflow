@@ -19,4 +19,6 @@ then
     git psh 
 fi
 
-git psh origin $branch
+
+# 'Enter the branch name: '
+# git psh origin $branch
