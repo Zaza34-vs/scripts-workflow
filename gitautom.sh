@@ -1,3 +1,5 @@
+git pl
+
 echo 'Enter the commit message: '
 read commitMessage
 
