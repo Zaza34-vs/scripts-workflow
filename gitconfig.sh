@@ -16,3 +16,4 @@
 	graph = log -- oneline --graph
 	toRemote = remote add origin
 	pshForced = push origin HEAD --force
+	command = help -a
