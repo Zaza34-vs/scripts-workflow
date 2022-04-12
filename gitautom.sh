@@ -8,14 +8,15 @@ git message "$commitMessage"
 echo 'Do you want to create a branch (Y/N) ? '
 read branchMessage
 
-if [$branchMessage = "Y"]
+if [$branchMessage == 'Y']
 then
     echo 'Enter the branch name: '
     read branchName
-    git branch "$branchName"
-fi
+    git br "$branchName"
 
-echo 'Enter the name of the branch: '
-read branch
+elif [$branchMessage == 'N']
+then
+    git psh 
+fi
 
 git psh origin $branch
