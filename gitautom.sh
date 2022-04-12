@@ -1,4 +1,5 @@
 git pl
+git add .
 
 if [ $? -eq 0 ]
 then
