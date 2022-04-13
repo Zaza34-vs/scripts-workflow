@@ -3,7 +3,7 @@
 This is where i will share all utils scripts in BASH, PowerShell, Z shell, etc.
 Feel free to use it for optimize your workflow
 
-## How to use the script
+## How to use the script git automation
 
 1. Get the gitconfig.sh and copy paste to your .gitconfig file
 2. You can access the .gitconfig file by following this path :
